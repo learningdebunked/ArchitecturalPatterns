@@ -14,3 +14,4 @@ Interpreter pattern
 Where does hexagonal architecture pattern fit ?
 
 FQDN Vs Header based routing , what are the other types of routing ?
+payload compression 
