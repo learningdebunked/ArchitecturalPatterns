@@ -15,3 +15,5 @@ Where does hexagonal architecture pattern fit ?
 
 FQDN Vs Header based routing , what are the other types of routing ?
 payload compression 
+
+Erlang ( manages its own threads) vs other programming languages ( rely on OS threads ) 
