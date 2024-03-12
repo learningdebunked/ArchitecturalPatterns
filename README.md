@@ -17,3 +17,10 @@ FQDN Vs Header based routing , what are the other types of routing ?
 payload compression 
 
 Erlang ( manages its own threads) vs other programming languages ( rely on OS threads ) 
+
+** Architecture frameworks
+   ** Zackman framework
+   ** TOGAF
+   ** Federal Enterprise architecture framework 
+   ** Gartner Enterprise architecture framework
+ 
