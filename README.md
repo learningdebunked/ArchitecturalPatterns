@@ -25,6 +25,7 @@ Erlang ( manages its own threads) vs other programming languages ( rely on OS th
    ** Gartner Enterprise architecture framework
 
 
+A good architect starts with customer 
 
  Layered Architecture: Separates concerns into hierarchical layers like presentation, business logic, and data access. This is a tried and true way to structure applications.
 
