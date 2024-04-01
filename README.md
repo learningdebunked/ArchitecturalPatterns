@@ -24,8 +24,19 @@ Erlang ( manages its own threads) vs other programming languages ( rely on OS th
    ** Federal Enterprise architecture framework 
    ** Gartner Enterprise architecture framework
 
+Microservices - come up with a bounded context , self contained components
 
-A good architect starts with customer 
+A good architect starts with customer , watch your customer work with our software
+
+Design patterns - Building blocks of architecture
+
+Read code
+Understand any open source project 
+O'reilly architecture conference
+
+Conway's Law:  communication structure and architecture have to match
+
+BUFD - Big upfront Design
 
  Layered Architecture: Separates concerns into hierarchical layers like presentation, business logic, and data access. This is a tried and true way to structure applications.
 
