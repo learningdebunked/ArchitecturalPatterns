@@ -36,7 +36,15 @@ O'reilly architecture conference
 
 Conway's Law:  communication structure and architecture have to match
 
-BUFD - Big upfront Design
+BUFD - Big upfront Design , leans on water fall model
+
+Technology decision is deferred last responsible moment in Agile incremental designs i.e. building around users
+
+DDD ( domain driven design )  - structure of code maps to structure of problem domain/ business , in fact it must match otherwise its leads to conway mismatch 
+
+Bounded context - // TODO how can this be modelled in real code 
+
+
 
  Layered Architecture: Separates concerns into hierarchical layers like presentation, business logic, and data access. This is a tried and true way to structure applications.
 
