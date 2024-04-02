@@ -44,6 +44,18 @@ DDD ( domain driven design )  - structure of code maps to structure of problem d
 
 Bounded context - // TODO how can this be modelled in real code 
 
+What is a user story ?
+- Describes an end user going through a domain level process to achieve valuable outcome
+- story should fit on a single sticky note
+- don't get into horizontal slicing like UI / Business and data logic ( this happens at Walmart ) , instead do Vertical slicing , make it smaller by narrowing its scope
+- Activity diagram might be a good start to vertical slice
+- apply work flow isolation , narrow the scope and this is the most common one
+
+Bounded context 
+- Event storming in the DDD 
+- 
+
+
 
 
  Layered Architecture: Separates concerns into hierarchical layers like presentation, business logic, and data access. This is a tried and true way to structure applications.
