@@ -52,11 +52,46 @@ What is a user story ?
 - apply work flow isolation , narrow the scope and this is the most common one
 
 Bounded context 
-- Event storming in the DDD 
-- 
+- Event storming in the DDD  , this is the first step , domain level events that are meaningful to the business , business usually drive this process
+- Domain gives coherence to the architecture from event storming
+- what is an agent and how to implement ? //TODO
+- Entities are the bounded context in agents, where an agent does contextual work linked to a respective event and action. //Understand more in detail
 
+An enterprise-level agile system is comprised of small, cooperating but stand-alone parts, whereas EA is one large system.
 
+Architectural patterns 
+- Monolith - every thing happens in one big program. Cost of replacing a monolith is lower than maintaining . A well structured monolith has horizontal and vertical partitions
+  Horizontal partitions are called Tiers ( like UI / Business logic and / Database ) .
+    - Tiers talk to immediate neighbors typically UI never talks to DB
+    - Vertical partitions - Reflect the bounded context of the domain
+      
+- Plugin or the micro kernel pattern
+   - Example : OS
+   - Single standalone executable
+   - Kernel handles virtual memory or file system , others are plugged into the kernel
+   - Linux is another example , every thing else is plugged into Kernel
+   - //TODO see a real life example and implementation
+   - The communication is mostly via message bus or a http REST Interface
+   - Amazons AWS / Microsoft Azure are one example of Micro kernel pattern
+   - Plugins don't know how other plugins work or even exist
 
+  - Message based architecture
+     - Takes micro kernel pattern a step further
+     - Message bus controls the flow of communication
+     - Adaptors talk to the applications
+     - Programs talk over message bus through messages
+     - Pub/sub model , instead of queue , agents subscribe to the broker
+
+  - Micro services
+     - A cloud of small independent services that come together to get larger work done
+     - Have to be fully autonomous
+     - should implement bounded contexts
+     - come up with a design and run time complexity
+
+ - Reactive or choreographed pattern
+     - Declarative approach is a maintainence headache
+     - Relies on events , instead of making requests
+     -             
 
  Layered Architecture: Separates concerns into hierarchical layers like presentation, business logic, and data access. This is a tried and true way to structure applications.
 
