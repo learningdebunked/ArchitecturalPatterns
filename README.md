@@ -1,3 +1,5 @@
+EA 
+
 # ArchitecturalPatterns
 
 - Layered pattern
@@ -19,7 +21,7 @@ payload compression
 Erlang ( manages its own threads) vs other programming languages ( rely on OS threads ) 
 
 ** Architecture frameworks
-   ** Zackman framework
+   ** Zackman framework (knowledge into ontology )
    ** TOGAF
    ** Federal Enterprise architecture framework 
    ** Gartner Enterprise architecture framework
