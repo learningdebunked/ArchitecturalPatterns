@@ -114,3 +114,6 @@ In 2024, architectural trends focus on scaling, resilience, and flexibility:
 - Reactive Principles and Non-Blocking Communication: Facilitates resilience and elasticity.
 - 
 ![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/2dd37368-b933-4bba-9e1d-bfd2906c3a70)
+
+![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/c981ebb1-2d33-4fcc-90da-8082c96e1006)
+
