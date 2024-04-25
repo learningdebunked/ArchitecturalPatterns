@@ -61,6 +61,25 @@ Bounded context
 
 An enterprise-level agile system is comprised of small, cooperating but stand-alone parts, whereas EA is one large system.
 
+**Characteristics of DDD**
+
+    ** Structure of code should map to domain , the problem that is solved
+    **  DDD is incremental , no Big upfront Design , i.e. inspect & adapt & improve
+    **  Microservice is the common way DDD is implemented
+    ** Domain driven design is organizing code along certain well defined boundaries
+    ** Bounded context -- Natural division within a business , things that go inside the context happen within the context 
+    ** Entity -- individual within a given context . Much like an object or a class in a object oriented world. Has one job and does one thing with a specific context
+    ** Aggregate -- collection of entities that you talk to through a single portal 
+    ** Line b/w Entity and Aggregate can be fuzzy. 
+    ** Determining whether its an Entity or Aggregate may not be visible from outside the context 
+    ** Portal entity uses other entities within aggregates to accomplish tasks
+    ** Context can be implemented by single aggregate or multiple aggregates
+    ** Ubiquituous language 
+
+          ** People working within an context use a language all their own
+          ** Language of one context is different from language of other contexts
+          ** 
+
 Architectural patterns 
 - Monolith - every thing happens in one big program. Cost of replacing a monolith is lower than maintaining . A well structured monolith has horizontal and vertical partitions
   Horizontal partitions are called Tiers ( like UI / Business logic and / Database ) .
