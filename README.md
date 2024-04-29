@@ -78,7 +78,33 @@ An enterprise-level agile system is comprised of small, cooperating but stand-al
 
           ** People working within an context use a language all their own
           ** Language of one context is different from language of other contexts
+          ** Formalizing this language is essential for DDD , within a specific context
+          ** Identifies roles for entities and entities are named after roles
           ** 
+
+    ** Everything is context sensitive inside DDD
+    ** How entities communicate ?
+
+          ** Easy  : Orchestrate Declarative systems , one entity tells other what to do  , exmaple shopping service telling invoice service to issue billing , notification to send out emails
+
+                  ** Leads to tight coupling b/w services
+                  ** 
+                  
+          ** Better: Choreography or reactive systems
+
+                  ** Replace the services with generic ones , example shopping service now announces to the world like order place() event , so notification picks it , billing picks it
+                  ** Eliminates hard tight coupling
+                  ** Maintainence is easy
+                  ** Reactive model is way to go for DDD
+                  ** How do we design ?
+
+                           ** Event storming : 
+                           
+                                 ** Used it to analyse the domain and develope the code
+                                 ** Model Flow of activities within business
+                                 ** Tools for event storming :  1 event per sticky note 
+                           
+                  
 
 Architectural patterns 
 - Monolith - every thing happens in one big program. Cost of replacing a monolith is lower than maintaining . A well structured monolith has horizontal and vertical partitions
