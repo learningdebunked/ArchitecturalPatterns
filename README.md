@@ -169,3 +169,19 @@ Rest principles
 ![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/338cc155-1cb4-4482-b605-945033321ef3)
 
 
+**Design prototyping**
+
+    ** Generate new ideas
+    ** Convey complex interactions
+    ** Document design intent
+    ** Learn how users react to your ideas
+
+    Design around users is called UCD ( User centered design ) . Design with person's needs in mind
+
+    Design documents are unable to simulate the emotion
+
+    Prototyping - core skill in Design Thinking
+
+    Design thinking is making based approach to problem solving  that's roote in human empathy and done in collaborative multidisciplinary Teams
+
+
