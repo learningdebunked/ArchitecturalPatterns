@@ -165,3 +165,7 @@ In 2024, architectural trends focus on scaling, resilience, and flexibility:
 
 ![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/f1000294-2878-42a9-9ca8-d90c6f5f68af)
 
+Rest principles
+![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/338cc155-1cb4-4482-b605-945033321ef3)
+
+
