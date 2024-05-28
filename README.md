@@ -210,6 +210,10 @@ Rest principles
 
     Design documents are unable to simulate the emotion
 
+    **Retries and types of retries**
+    ![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/d9c75104-2536-494b-832c-27bb8e1c8d50)
+
+
     Prototyping - core skill in Design Thinking
 
     Design thinking is making based approach to problem solving  that's roote in human empathy and done in collaborative multidisciplinary Teams
