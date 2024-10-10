@@ -219,5 +219,7 @@ Rest principles
 Also look at speculative retry - two parallel calls and take response of the call that returns first 
  ![image](https://github.com/learningdebunked/ArchitecturalPatterns/assets/7702406/d9c75104-2536-494b-832c-27bb8e1c8d50)
 
+**API Architectural styles**
+![image](https://github.com/user-attachments/assets/9aa0e9f2-b211-489b-bcd2-771bb09b96ee)
 
 
