@@ -223,3 +223,16 @@ Also look at speculative retry - two parallel calls and take response of the cal
 ![image](https://github.com/user-attachments/assets/9aa0e9f2-b211-489b-bcd2-771bb09b96ee)
 
 
+Algoirthms to pay attention to :
+
+1 - Bloom Filter: Check if a requested item is in the cache before performing disk operations.
+3 - HyperLogLog: Counting unique queries performed by users in a search.
+4 - Consistent Hashing: Used for efficient data distribution between the cluster’s nodes.
+5 - Merkle Tree: Used to detect inconsistencies between data replicas across multiple nodes.
+6 - Raft Algorithm: Used to achieve consensus on log replication.
+7 - Lossy Count: Network traffic analysis, web analytics, and identifying heavy hitters.
+8 - QuadTree: Used to build location-based services.
+9 - Operational Transformation: Used to support collaborative editing systems.
+12 - Ray Casting: Used for geospatial analysis, collision detection in video games, and computer graphics.
+
+
